@@ -30,5 +30,12 @@ public class Main {
             "12312314000123");
         
         System.out.println(pj.exibirInformacoes());
+
+        Pessoa p1 = pf;
+        System.out.println(p1.exibirInformacoes());
+
+        p1 = pj;
+        System.out.println(p1.exibirInformacoes());
+        p1.
     }
 }
